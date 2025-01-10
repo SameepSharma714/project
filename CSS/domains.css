@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.first{
+    display: flex;
+    gap: 400px;
+  background-color: white;
+ justify-content: center;
+margin-top: -10%;
+align-items: center;
+ position: fixed;
+ width: 100%;
+ padding: 3%;
+
+}
+.a{
+    display: flex;
+    gap: 30px;
+}
+.b{
+    overflow: hidden;
+}
+.b img{
+    color: white;
+}
+.b img{
+    animation-name: hostinger;
+    animation-duration: 1s;
+
+   
+}
+@keyframes hostinger {
+    from{
+transform: translateY(2200px);
+    }
+    to{
+
+    }
+}
+.c{
+    display: flex;
+    gap: 10px;
+   
+}
+.c img{
+    background: transparent;
+}
+.c h3{
+    margin-top: 10px;
+}
+.d{
+    display: flex;
+    gap: 30px;
+  
+}
+ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    list-style: none;
+        font-family: sans-serif;
+}
+li:hover{
+    text-decoration: underline purple;
+    transition: 0.5s;
+}
+.e{
+    overflow: hidden;
+}
+ .e button{
+    height: 40px;
+    width: 100px;
+    animation-name: hostinger;
+    animation-duration: 1s;
+   
+}
+.e button p{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.e button{
+    border-radius: 5px;
+    background-color: rgb(42, 51, 173);
+    color: white;
+    border: transparent;
+
+}
+ .e button:hover{
+    opacity: 0.8;
+}
+.second1 h1{
+  font-size: 38px;
+color: navy;
+
+}
+.second1{
+ text-align: center;
+ margin-top: 8%;
+ font-family: sans-serif;
+}
+.second1 p{
+    margin-top: 1%;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-family: sans-serif;
+}
+.third1{
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    margin-right: -3%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third2{
+    border: black solid 1px;
+    height: 49px;
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.fifth{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 600px;
+    width: 1000px;
+    gap: 50px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    text-align: center;
+}
+.fifth1{
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifth h3{
+    margin-top: 1%;
+}
+.fifth button{
+    height: 50px;
+width: 150px;
+background-color: navy;
+border: transparent;
+color: white;
+margin-top: 3%;
+border-radius: 5px;
+}
+.fourteen{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+   
+    font-family: sans-serif;
+}
+.fourteen h1{
+    font-size: 23px;
+    color: #2f1c6a;
+}
+.fourteen p{
+    color: #2f1c6a;
+}
+.onee{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.twoo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.threee{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fourr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fivee
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sixx
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fifteen{
+    display: flex;
+    gap: 795px;
+    margin-top: 5%;
+    justify-content: center;
+}
+.STU{
+    display: flex;
+    gap: 20px;
+}
+.STU i{
+    color: #2f1c6a;
+}
+.sixteen
+{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    margin-top: 2%;
+}
+.TUV{
+    display: flex;
+    gap: 10px;
+}
+.TUV img{
+    height: 40px;
+}
+.TUV a{
+   
+    margin-top: 2%;
+    font-size: 15px;
+    color: #2f1c6a;
+    font-family: sans-serif;
+}
+.UVW{
+    display: flex;
+    gap: 20px;
+}
+.UVW p{
+    font-family: sans-serif;
+}
+hr{
+    margin-top: 2%;
+}
+.seventeen{
+    display: flex;
+    gap: 570px;
+    justify-content: center;
+    margin-top:1%;
+    padding-bottom: 2%;
+}
+.seventeen p{
+    font-family: sans-serif;
+
+}

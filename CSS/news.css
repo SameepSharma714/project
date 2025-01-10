@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+}
+.mainfirst{
+ margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    gap: 650px;
+    position: fixed;
+    width: 100%;
+ background-color: white;  
+ padding-bottom: 1%; 
+
+}
+.first{
+    display: flex;
+    gap: 10px;
+    margin-top: 2%;
+   
+}
+.first p{
+    margin-top: 3%;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.second{
+    display: flex;
+    gap: 50px;
+    margin-top: 2%;
+  
+}
+.second ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 1%;
+    
+    
+}
+.second li{
+    list-style: none;
+}
+.second a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.second a:hover{
+text-decoration: underline black;
+}
+.a button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    border: balck solid 1px;
+}
+.mainsecond{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-color: #673de6;
+    padding: 1%;
+    margin-top: 5%;
+}
+.main1 ul{
+    display: flex;
+    gap: 30px;
+}
+.main1 a:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.main1 a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.main1 li{
+    list-style: none;
+}
+.main2 i{
+    color: white;
+    font-size: 20px;
+}
+.mainmainthird{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.mainthird1 p{
+    font-family: sans-serif;
+    margin-top: 1%;
+}
+
+.mainthird2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 3%;
+}
+.mainthird3 img{
+    border-radius: 5px;
+}
+.mainthird4 h5{
+    font-family: sans-serif;
+font-size: 17px;
+}
+.mainthird4 h2{
+    
+
+    margin-top: 2%;
+}
+.mainthird4 pre{
+font-family: sans-serif;
+font-size: 20px;
+margin-top:5%;
+color: rgb(52, 35, 35);
+}
+.mainthird5 img{
+    border-radius: 50%;
+}
+.mainthird5{
+    margin-top: 8%;
+    display: flex;
+    gap: 10px;
+}
+
+.mainfourth{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 1300px;
+    width: 1300px;
+    gap: 30px;
+     margin-left: 3%;
+     margin-top: 3%;
+     font-family: 
+     sans-serif;
+}
+.mainfourth img{
+border-radius: 5px;
+}
+.mainfourth h1{
+    font-size: 20px;
+    margin-top: 1%;
+
+}
+.mainfourth p{
+margin-top: 1%;
+}
+.fourteen{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 8%;
+    font-family: sans-serif;
+}
+.fourteen h1{
+    font-size: 23px;
+    color: #2f1c6a;
+}
+.fourteen p{
+    color: #2f1c6a;
+}
+.onee{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.twoo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.threee{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fourr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fivee
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sixx
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fifteen{
+    display: flex;
+    gap: 795px;
+    margin-top: 5%;
+    justify-content: center;
+}
+.STU{
+    display: flex;
+    gap: 20px;
+}
+.STU i{
+    color: #2f1c6a;
+}
+.sixteen
+{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    margin-top: 2%;
+}
+.TUV{
+    display: flex;
+    gap: 10px;
+}
+.TUV img{
+    height: 40px;
+}
+.TUV a{
+   
+    margin-top: 2%;
+    font-size: 15px;
+    color: #2f1c6a;
+    font-family: sans-serif;
+}
+.UVW{
+    display: flex;
+    gap: 20px;
+}
+.UVW p{
+    font-family: sans-serif;
+}
+hr{
+    margin-top: 2%;
+}
+.seventeen{
+    display: flex;
+    gap: 570px;
+    justify-content: center;
+    margin-top:1%;
+    padding-bottom: 2%;
+}
+.seventeen p{
+    font-family: sans-serif;
+
+}
